@@ -16,7 +16,7 @@ Note that the EC2 Instance in this module doesn't actually do anything; it just 
 1. Install [Terraform](https://www.terraform.io/) and make sure it's on your `PATH`.
 1. Enter into the module folder and run the following command lines:
 1. Run `terraform init`.
-1. Run `terraform fmt`.
+1. Run `terraform fmt -recursive`.
 1. Run `terraform validate`.
 1. Run `terraform plan -out plan.out`.
 1. Run `terraform apply plan.out`.
